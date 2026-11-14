@@ -2,6 +2,10 @@
 
 A simple mobile app to track how long you wear your Invisalign (or any clear aligners) each day.
 
+<p align="center">
+  <img src="docs/screenshots/today.png" alt="Today screen: daily progress ring and live session timer" width="300">
+</p>
+
 ## Features
 
 - **One-tap toggle** — big button to mark aligners **in** or **out**, with a live session timer.
