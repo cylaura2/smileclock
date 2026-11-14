@@ -1,15 +1,18 @@
 {
   "expo": {
-    "name": "invisalign-tracker",
-    "slug": "invisalign-tracker",
+    "name": "SmileClock",
+    "slug": "smileclock",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "scheme": "smileclock",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cylaura.smileclock"
     },
     "android": {
+      "package": "com.cylaura.smileclock",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -20,6 +23,20 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#14B8A6"
+        }
+      ],
+      "expo-sharing"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7c9a8a53-4a29-4d10-8f2a-8f905f799b5f"
+      }
     }
   }
 }
